@@ -4,7 +4,7 @@ How to train custom dataset on YOLO V5:
 
 1.git clone YOLOv5 repo (https://github.com/ultralytics/yolov5).
 
-2.download any dataset (I used wheat dataset from kaggle (https://www.kaggle. com/c/global-wheat-detection)).
+2.download any dataset (I used wheat dataset from kaggle (https://www.kaggle.com/c/global-wheat-detection)).
 
 3.place editing.py , wheat.yaml and wheat_data in git cloned yolov5 model.
 
@@ -41,7 +41,7 @@ Image Classification and Image Localization(bounding box around object):
 
 How to tell machine about the localization : there will be xtrain(image) and ytrain(vectors).
 ![GitHub Logo](images/1.png)
-![GitHub Logo](images/1.png)
+
 
 Have many thousands images in your dataset and train them.
 
@@ -96,5 +96,6 @@ V3 Upscale the entire image which uses a lot of memory but in V5, size is decrea
 
 
 Screenshots Source and Tutorial Links :
+YOLO V5 repo : (https://github.com/ultralytics/yolov5)
 Thanks To Codebasics : https://www.youtube.com/watch?v=ag3DLKsl2vk
 Thanks to Abhishek Thakur : https://www.youtube.com/watch?v=NU9Xr_NYslo
