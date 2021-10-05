@@ -3,12 +3,18 @@
 How to train custom dataset on YOLO V5:
 
 1.git clone YOLOv5 repo (https://github.com/ultralytics/yolov5).
+
 2.download any dataset (I used wheat dataset from kaggle (https://www.kaggle. com/c/global-wheat-detection)).
+
 3.place editing.py , wheat.yaml and wheat_data in git cloned yolov5 model.
+
 4.if dataset is different than make changes in wheat_data accordingly.
+
 5.Place folders according to directories.
+
 ![GitHub Logo](images/11.png)
 ![GitHub Logo](images/12.png)
+
 6.run using : "pyton train.py --img 1024 --batch 8 --epochs 100 --data wheat.yaml --cfg models/yolov5s.yaml --name wm -- weights."
 
 Note : in my repo, downloaded dataset and yolov5 repo is missing.
@@ -34,6 +40,7 @@ YOLO : Real Time Object Detection
 Image Classification and Image Localization(bounding box around object):
 
 How to tell machine about the localization : there will be xtrain(image) and ytrain(vectors).
+![GitHub Logo](images/1.png)
 ![GitHub Logo](images/1.png)
 
 Have many thousands images in your dataset and train them.
