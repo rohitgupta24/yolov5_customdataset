@@ -6,7 +6,7 @@ How to train custom dataset on YOLO V5:
 
 2.download any dataset (I used wheat dataset from kaggle (https://www.kaggle.com/c/global-wheat-detection)).
 
-3.place editing.py , wheat.yaml and wheat_data in git cloned yolov5 model.
+3.Cut and paste editing.py , wheat.yaml and wheat_data(from yoolo folder) in git cloned yolov5 model. 
 
 4.if dataset is different than make changes in wheat_data accordingly.
 
